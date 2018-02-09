@@ -1,0 +1,9 @@
+.main-logo {
+  @include margin-bottom(1);
+}
+
+.main-text {
+  @include font-size(1.2);
+
+  color: white;
+}

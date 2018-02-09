@@ -1,0 +1,136 @@
+// mostly used for details/summary and accordions
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes ani-mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+
+@-moz-keyframes ani-mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+
+@keyframes ani-mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+
+@keyframes zIndexOff {
+  from {
+    z-index: 2;
+  }
+  to {
+    z-index: -1;
+  }
+}
+
+.hover-stat {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+
+  &:hover {
+    color: $emperor;
+  }
+}
+
+.hover-stat::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 16px;
+  right: 0;
+  background: #fff;
+  transform: translate3d(-100%, 0, 0);
+  transition: transform 0.4s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.hover-stat:hover::after {
+  transform: translate3d(100%,0,0);
+}
+
+.hover-stat .desc {
+  position: relative;
+  transition: color .3s 0.3s;
+}
+
+.hover-stat .desc::before {
+  content: attr(data-content);
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+  color: #000;
+  white-space: nowrap;
+  width: 0;
+  transition: width 0.4s 0.3s;
+}
+
+.hover-stat .desc:hover {
+  //color: transparent;
+
+  &::before {
+    width: 100%;
+  }
+}

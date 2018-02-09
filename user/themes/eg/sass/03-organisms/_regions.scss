@@ -1,0 +1,13 @@
+#mainMenu {
+  position: relative;
+  z-index: 1;
+}
+
+#main {
+  position: relative;
+  z-index: 2;
+
+  &.behind {
+    z-index: 0;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Oscuro",
+  "description": "Basic Gulp Setup",
+  "version": "1.0.0",
+  "author": "Alban Bailly",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob-import": "^0.1.0"
+  }
+}

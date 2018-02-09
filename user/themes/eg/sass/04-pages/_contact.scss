@@ -1,0 +1,45 @@
+.contact-list {
+  @include margin-top(1);
+
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+
+  @include breakpoint($bp-768) {
+    flex-direction: row;
+  }
+
+  &__title {
+    @include font-size(1.2);
+
+    font-family: $sans;
+    text-transform: uppercase;
+    padding-right: 5px;
+  }
+
+  &__email {
+    @include padding(2, 1, 1, 1);
+
+    text-align: center;
+
+    a {
+      color: $white;
+    }
+  }
+
+  &__logo {
+    margin: 0 auto;
+    max-width: 100px;
+    position: relative;
+    top: -3rem;
+  }
+
+  .desc {
+    display: inline-block;
+  }
+
+  a {
+    color: $white;
+  }
+}

@@ -1,0 +1,69 @@
+
+
+//
+// BASE COLORS
+//
+$black:              hsla(0, 0%, 0%, 1);
+$zeus:               hsla(18, 21%, 12%, 1);
+$emperor:            hsla(0, 0%, 33%, 1);
+$grey:               hsla(0, 0%, 53%, 1);
+$gallery:            hsla(0, 0%, 92%, 1);
+$wild-sand:          hsla(0, 0%, 96%, 1);
+$white:              hsla(0, 100%, 100%, 1);
+$bermuda-grey:       hsla(212, 26%, 56%, 1);
+$dark-bermuda-grey:  darken($bermuda-grey, 20%);
+$light-bermuda-grey: lighten($bermuda-grey, 20%);
+$emerald:            hsla(147, 52%, 51%, 1);
+$saffron:            hsla(40, 94%, 59%, 1);
+$tangerine:          hsla(40, 100%, 44%, 1);
+$outrageous-orange:  hsla(13, 100%, 63%, 1);
+$persian-red:        hsla(0, 64%, 51%, 1);
+
+
+// EG COLORS
+
+$cod-gray: hsla(0, 0%, 10%, 1);
+$white-haze: hsla(180, 8%, 97%, 1);
+$tangerine: hsla(32, 100%, 48%, 1);
+
+$default-body: $white;
+$link: $bermuda-grey;
+$link-hover: $dark-bermuda-grey;
+
+$jade: rgba(67, 217, 205, 1);
+
+//
+// LAYOUT
+//
+$site-min-width: 25em;
+$site-max-width: 850px / 16px * 1em;
+
+//
+// TYPOGRAPHY
+//
+$serif: 'Roboto Slab', serif;
+$sans: 'Dosis', sans-serif;
+$sans-copy: 'Helvetica', sans-serif;
+// other typography settings see ../vendor/scss/gutenberg/_gutenberg-typography.scss
+
+//
+// LAYOUT
+//
+
+// Configure max-width in sass/vendor/scss/gutemberg/_gutenberg-config.scss
+
+//
+// BREAKPOINTS
+//
+
+@import '../../vendor/scss/gutenberg/gutenberg-config';
+
+$bp-540:    min-width 540 / $base * 1em !default;
+$bp-768:    min-width 768 / $base * 1em !default;
+$bp-1024:   min-width 1024 / $base * 1em !default;
+$bp-1200:   min-width 1200 / $base * 1em !default;
+$bp-1500:   min-width 1500 / $base * 1em !default;
+$bp-1800:   min-width 1800 / $base * 1em !default;
+
+$bp-max-width:  max-width 1248 / $base * 1em !default;
+$bp-mobile-search:  max-width 1024 / $base * 1em !default;

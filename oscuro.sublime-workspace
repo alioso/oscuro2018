@@ -1,0 +1,659 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"span",
+				"letter-spacing"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"zivtec",
+				"zivtech-dark"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top: "
+			],
+			[
+				"tra",
+				"transition: "
+			],
+			[
+				"att",
+				"attr"
+			],
+			[
+				"text",
+				"text-decoration: "
+			],
+			[
+				"tr",
+				"transition: "
+			],
+			[
+				"breakpoint",
+				"breakpoint-full-desktop-width"
+			],
+			[
+				"bar",
+				"background: "
+			],
+			[
+				"paddin",
+				"padding-left: "
+			],
+			[
+				"ziv",
+				"zivtech-off-black"
+			],
+			[
+				"ba",
+				"background: "
+			],
+			[
+				"marg",
+				"margin-top: "
+			],
+			[
+				"te",
+				"text-transform: "
+			],
+			[
+				"min",
+				"min-width: "
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"tran",
+				"transition: "
+			],
+			[
+				"textr",
+				"text-decoration: "
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"pos",
+				"position: "
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"site",
+				"site-max-width"
+			],
+			[
+				"im",
+				"image-max-width"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"break",
+				"breakpoint-large-width"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"nova",
+				"novartisfont-upper-demi"
+			],
+			[
+				"novart",
+				"novartisfont-sans"
+			],
+			[
+				"novar",
+				"novartisfont-sans-demi"
+			],
+			[
+				"breakpoin",
+				"breakpoint-small-width"
+			],
+			[
+				"ligh",
+				"lightbrown-links"
+			],
+			[
+				"gre",
+				"greybg"
+			],
+			[
+				"nov",
+				"novartisfont-sans"
+			],
+			[
+				"ajax",
+				"ajaxSuccess"
+			],
+			[
+				"nv-tra",
+				"nv-transition-fast"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"novartis",
+				"novartisfont-upper-demi"
+			],
+			[
+				"tex",
+				"text-transform: "
+			],
+			[
+				"dark",
+				"dark-links"
+			],
+			[
+				"las",
+				"last-child"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"li",
+				"line-height: "
+			],
+			[
+				"novartis-",
+				"novartisfont-sans"
+			],
+			[
+				"zivt",
+				"zivtech-gray"
+			],
+			[
+				"nn",
+				"none"
+			],
+			[
+				"bo",
+				"border-top: "
+			],
+			[
+				"font-s",
+				"font-size: "
+			],
+			[
+				"light",
+				"lightbrown"
+			],
+			[
+				"lis",
+				"list-style-type: "
+			],
+			[
+				"fn",
+				"font-size: "
+			],
+			[
+				"borde",
+				"border-radius\tCompass"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"seta",
+				"septa-blue"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"septa",
+				"septa-off-black"
+			],
+			[
+				"max-",
+				"max-width: "
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"box",
+				"box-sizing\tBourbon"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"views",
+				"views-submit-button"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"prett",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"tid",
+				"Tidy CSS"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"beau",
+				"SassBeautify"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/albanbailly/Documents/vagrant/16/www/oscuro",
+		"/Users/albanbailly/Documents/vagrant/16/www/oscuro/user",
+		"/Users/albanbailly/Documents/vagrant/16/www/oscuro/user/themes"
+	],
+	"file_history":
+	[
+		"/Users/albanbailly/Documents/vagrant/16/www/oscuro2018/user/themes/eg/templates/partials/base.html.twig",
+		"/Users/albanbailly/Documents/vagrant/16/www/oscuro2018/user/themes/eg/templates/default.html.twig",
+		"/Users/albanbailly/Documents/vagrant/16/www/oscuro2018/user/themes/eg/templates/partials/header.html.twig",
+		"/Users/albanbailly/Documents/vagrant/16/www/oscuro/alioso_oscuronew.sql",
+		"/Users/albanbailly/Documents/docker/flix/src/components/RouteWhenAuthorized.js",
+		"/Users/albanbailly/Documents/docker/flix/src/App.js",
+		"/Users/albanbailly/Documents/docker/flix/src/index.js",
+		"/Users/albanbailly/Documents/docker/flix/src/store/configureStore.js",
+		"/Users/albanbailly/Documents/docker/eg/db216208_1clk_wordpress_oczqRm1nZErMWt1T.sql",
+		"/Users/albanbailly/Documents/docker/eg/wp-content/themes/levelup/functions.php",
+		"/Users/albanbailly/Documents/docker/cbtoolkit/web/sites/default/settings.php",
+		"/Users/albanbailly/Documents/Own Websites/oscuroquintet.com/performers2.htm",
+		"/Users/albanbailly/Documents/docker/portfolio/.lando.yml",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/6388BABF-878C-4E7B-B0E3-07C1E69928D3/index.html",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/60B7C177-251D-4FF0-82D3-68BC636BC7E2/index.html",
+		"/Users/albanbailly/Downloads/AnimatedGridLayout/scss/style1.scss",
+		"/Users/albanbailly/Downloads/cbtoolkit (2)/style.css",
+		"/Users/albanbailly/Downloads/cbtoolkit/style.css",
+		"/Users/albanbailly/Documents/docker/zivtech/.lando.yml",
+		"/Users/albanbailly/Documents/docker/.lando.yml",
+		"/Users/albanbailly/Downloads/BearSkin - Font Awesome subset.json",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/DE4E0CF4-D4B7-4E71-95F7-7C226C2A3AD0/wp-config.php",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/066B084A-B125-4AED-98B7-A33BDA91466E/wp-config.php",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/CD8C8F85-EF0F-442E-BC11-E973E7AF351F/wp-config.php",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/867B09AD-B6CA-4700-8926-FC01A5C6DBB2/wp-settings.php",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/294CAB20-D44A-4A4F-BDAB-BC6C17BC2D7B/wp-config.php",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/86A24C04-1875-494D-8EFD-B11D0BB14B3C/wp-config.php",
+		"/Users/albanbailly/settings.php",
+		"/Users/albanbailly/Downloads/museumfirepresents.sql",
+		"/Users/albanbailly/Downloads/bebo/main.scss",
+		"/Users/albanbailly/Documents/vagrant/16/www/oscuro/wp-content/themes/oscuro/gulpfile.yml",
+		"/Users/albanbailly/Documents/vagrant/16/www/copland8/code/config/sync/core.extension.yml",
+		"/Users/albanbailly/Documents/vagrant/16/www/amphion8/code/.probo.yaml",
+		"/Users/albanbailly/Documents/docker/ptd/web/modules/custom/ptd_donate/js/fetch.js",
+		"/Users/albanbailly/Documents/docker/bearskin/.lando.yml",
+		"/Users/albanbailly/Downloads/logo.svg",
+		"/Users/albanbailly/Documents/vagrant/custom.yaml",
+		"/Users/albanbailly/Downloads/nat (1)/style.css",
+		"/Users/albanbailly/Documents/docker/ptd/web/sites/default/settings.php",
+		"/Users/albanbailly/Documents/docker/zivtech/zivtechd8_2017-12-05.sql",
+		"/Users/albanbailly/Documents/vagrant/16/default.config.yaml",
+		"/Users/albanbailly/Downloads/postcss-responsive-type-master/test/fixtures/mixed.css",
+		"/Users/albanbailly/Documents/vagrant/16/Vagrantfile",
+		"/Users/albanbailly/Documents/vagrant/16/Puppetfile.lock",
+		"/Users/albanbailly/Downloads/animate.css",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/163AC8C3-440E-4477-8202-F02F18DF6E6A/.htaccess",
+		"/Users/albanbailly/Downloads/scrolloverflow.min.js",
+		"/Users/albanbailly/Downloads/resto/index.html",
+		"/Users/albanbailly/Downloads/imgStatus-master/imgStatus.js",
+		"/Users/albanbailly/Downloads/TextStylesHoverEffects/css/linkstyles.css",
+		"/Users/albanbailly/Downloads/morphing-modal-window/js/main.js",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/A45272C6-D837-4C5C-8259-7849FD68A239/phplist_auth.inc",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/5220CB4C-C438-4BE2-95EE-119D75526010/index.php",
+		"/Users/albanbailly/Documents/vagrant/seven/www/mitel/code/docroot/modules/field_ui/field_ui.admin.inc",
+		"/Users/albanbailly/Documents/vagrant/seven/www/mitel/code/docroot/sites/mitel.vm/settings.php",
+		"/Users/albanbailly/.ssh/id_rsa.pub",
+		"/Users/albanbailly/Documents/vagrant/eight/www/museumfire/code/sites/default/settings.php",
+		"/Users/albanbailly/Downloads/neato/STARTER/Gulpfile.js",
+		"/Users/albanbailly/Documents/vagrant/vm/www/mitel/code/docroot/sites/mitel.local/settings.php",
+		"/Users/albanbailly/Documents/vagrant/vm/www/mitel/code/docroot/sites/default/settings.php",
+		"/Users/albanbailly/.ssh/config",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/sites/default/default.services.yml",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_skin.breakpoints.yml",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/sites/default/settings.local.php",
+		"/Users/albanbailly/Downloads/5727bdd6ff88a00f00762d47/styles/pdf.css",
+		"/Users/albanbailly/Downloads/5727bdd6ff88a00f00762d47/styles/print.css",
+		"/Users/albanbailly/Documents/vagrant/vm/www/bear7/code/profiles/bear/themes/contrib/bear_skin/bear_coat/node_modules/cli/examples/command.js",
+		"/Users/albanbailly/Documents/vagrant/vm/www/ebayenterprise/code/public/sites/default/site-settings.php",
+		"/Users/albanbailly/Documents/vagrant/vm/www/ebayenterprise/code/public/sites/default/settings.php",
+		"/Users/albanbailly/Documents/Own Websites/phippspainting/assets/css/colorbox.css",
+		"/Users/albanbailly/Documents/Own Websites/phippspainting/assets/css/main.css",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/536F9E18-127B-4FFA-BA6F-9FD7B7BD95EC/header.php",
+		"/Users/albanbailly/Library/Caches/Cleanup At Startup/Transmit/DCD7C1BE-21AF-458A-BCFF-463266B71194/wp-config.php",
+		"/Users/albanbailly/Documents/vagrant/vm/www/mitel/code/docroot/profiles/mitel/modules/custom/mitel_sticky_footer/mitel-sticky-footer.js",
+		"/Users/albanbailly/Documents/Own Websites/lesco/assets/css/demo.css",
+		"/Users/albanbailly/Documents/vagrant/vm/www/bear7/code/profiles/bear/themes/contrib/bear_skin/bear_coat/js/scripts.js",
+		"/Users/albanbailly/Documents/vagrant/vm/www/ebayenterprise/code/public/sites/all/themes/custom/newco/node_modules/cli/examples/command.js",
+		"/Users/albanbailly/Documents/Own Websites/locationlesconil.com/wp-config.php",
+		"/Users/albanbailly/Desktop/body {",
+		"/Users/albanbailly/Documents/vagrant/vm/www/carilion/code/docroot/sites/carilion.local/dev-carilion-cariliondev-2015-12-10.sql",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/styleguide/js/semantic.js",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/styleguide/index.html",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/gulpfile.js",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/styleguide/template/index.html",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/sites/default/settings.php",
+		"/Users/albanbailly/Documents/vagrant/eight/www/punch/punch/keystone.js",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/sass/base/_typography.scss",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/base/_typography.scss",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/base/_semantic_ui.scss",
+		"/Users/albanbailly/Documents/vagrant/eight/www/punch/punch/.env",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/sass/base/_layout.scss",
+		"/Users/albanbailly/Documents/vagrant/vm/www/mitel/code/docroot/profiles/mitel/themes/custom/mitel/Gemfile.lock",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/styleguide/js/jquery-1.7.min.js",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/styleguide/js/index.js",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/node_modules/gulp-kss/handlebarHelpers.js",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/styleguide/js/kss_handlebars_generator.js",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/styleguide/js/helpers.js",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/node_modules/kss/generator/handlebars/template/index.html",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/node_modules/kss/generator/handlebars/template/template_config.js",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/node_modules/kss/gh-pages/api/2.0.x/internals/kss_styleguide.js.html",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/node_modules/gulp-kss/node_modules/.bin/kss-node",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/bear_coat.libraries.yml",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/base/_layout.scss",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/base/_utility.scss",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/base/_tab.scss",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/styleguide/styleguide.md",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/base/_table.scss",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/vendor/semantic.css",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/base/_form.scss",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/styleguide/custom/style.css",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/package.json",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/README.md",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/styleguide.md",
+		"/Users/albanbailly/Downloads/gulp-kss-master-popo/demo/sass/elements/_buttons.sass",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/lib/index.html",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/index.html",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/styleguide.html",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/node_modules/gulp-kss/node_modules/kss/bin/kss-node",
+		"/Users/albanbailly/Downloads/gulp-kss-master-popo/demo/styleguide.md",
+		"/Users/albanbailly/Downloads/gulp-kss-master-popo/demo/sass/style.sass",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/css/bear_coat.css",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/styleguide/public/bear_coat.css",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/styleguide.md",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/base/_variables.scss",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/config.md",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/demos/headers.html",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/base/styleguide.md",
+		"/Users/albanbailly/Documents/vagrant/eight/www/bear8/code/profiles/bear/themes/contrib/bear_skin/bear_coat/sass/_variables.scss"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/Users/albanbailly/Documents/vagrant/16/www/oscuro2018/user/themes/eg/templates",
+			"/Users/albanbailly/Documents/vagrant/16/www/oscuro2018/user/themes/eg"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<video",
+			"video"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "oscuro.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 768.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,160 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+  <section id="main">
+    <header>
+      <div class="wrapper__outer">
+        <div class="wrapper__inner">
+          <h1>{{ page.header.title }}</h1>
+          {{ page.header.subtitle|markdown }}
+        </div>
+      </div>
+    </header>
+
+    <!-- Content -->
+
+    <!-- Landing Pages -->
+    {% set work = page.find('/work') %}
+    {% set team = page.find('/team') %}
+    {% set contact = page.find('/contact') %}
+
+    <!-- Work Pages -->
+    {% set artContent = page.find('/work/art-contents') %}
+    {% set eventContent = page.find('/work/event-contents') %}
+    {% set cbc = page.find('/work/creative-business-consulting') %}
+    {% set bdc = page.find('/work/branding-and-design-consulting') %}
+    {% set ci = page.find('/work/creative-investment') %}
+
+    <!-- Team Pages -->
+    {% set rami = page.find('/team/rami-nuseir') %}
+    {% set jill = page.find('/team/jill-buchanan') %}
+    {% set carlos = page.find('/team/carlos-alomar') %}
+    {% set steve = page.find('/team/steve-savage') %}
+    {% set shinjoo = page.find('/team/shinjoo-cho') %}
+    {% set won = page.find('/team/won-lee') %}
+    {% set andrew = page.find('/team/andrew-turf') %}
+    {% set sean = page.find('/team/sean-o-neill') %}
+    {% set alexandra = page.find('/team/alexandra-akira') %}
+    {% set sonja = page.find('/team/sonja-nuttall') %}
+    {% set peter = page.find('/team/peter-knell') %}
+
+    <div class="wrapper__outer">
+      <div class="wrapper__inner">
+        <div class="inner">
+          <div id="video-container">            
+            <div class="stns">
+              <span class="scroll-btn navbar-nav">
+                <a href="#" data-nav-section="welcome">
+                  <span class="mouse">
+                    <span>
+                    </span>
+                  </span>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div id="fullpage">
+            <div class="page bg--home section">
+              <div class="wrapper--inner fh">
+                {{ page.content }}
+              </div>
+            </div>
+            <div class="page bg--jade section">
+              <div class="wrapper--inner fh">
+                <h2 class="page-title">{{ work.title }}</h2>
+                {{ work.content }}
+              </div>
+            </div>
+            <div class="page bg--tangerine section">
+              <div class="wrapper--inner fkh">
+                <h2 class="page-title">{{ team.title }}</h2>
+                {{ team.content }}
+              </div>
+            </div>
+            <div class="page bg--grey section">
+              <div class="wrapper--inner fh">
+                <img src="user/themes/eg/images/logo-solo.png" class="contact-list__logo" />
+                <h2 class="page-title">{{ contact.title }}</h2>
+                {{ contact.content }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="eg-modal eg-modal__work">
+    <div class="eg-modal__close__wrapper wrapper--inner">
+      <a href="javascript:" class="eg-modal__close work"></a>
+    </div>
+    <div id="art-contents" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ artContent.title }}</h2>
+      {{ artContent.content }}
+    </div>
+    <div id="event-contents" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ eventContent.title }}</h2>
+      {{ eventContent.content }}
+    </div>
+    <div id="creative-business-consulting" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ cbc.title }}</h2>
+      {{ cbc.content }}
+    </div>
+    <div id="branding-and-design-consulting" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ bdc.title }}</h2>
+      {{ bdc.content }}
+    </div>
+    <div id="creative-investment" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ ci.title }}</h2>
+      {{ ci.content }}
+    </div>
+  </div>
+  <div class="eg-modal eg-modal__team">
+    <div class="eg-modal__close__wrapper wrapper--inner">
+      <a href="javascript:" class="eg-modal__close team"></a>
+    </div>
+    <div id="rami-nuseir" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ rami.title }}</h2>
+      {{ rami.content }}
+    </div>
+    <div id="jill-buchanan" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ jill.title }}</h2>
+      {{ jill.content }}
+    </div>
+    <div id="carlos-alomar" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ carlos.title }}</h2>
+      {{ carlos.content }}
+    </div>
+    <div id="steve-savage" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ steve.title }}</h2>
+      {{ steve.content }}
+    </div>
+    <div id="shinjoo-cho" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ shinjoo.title }}</h2>
+      {{ shinjoo.content }}
+    </div>
+    <div id="won-lee" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ won.title }}</h2>
+      {{ won.content }}
+    </div>
+    <div id="andrew-turf" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ andrew.title }}</h2>
+      {{ andrew.content }}
+    </div>
+    <div id="sean-o-neill" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ sean.title }}</h2>
+      {{ sean.content }}
+    </div>
+    <div id="alexandra-akira" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ alexandra.title }}</h2>
+      {{ alexandra.content }}
+    </div>
+    <div id="sonja-nuttall" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ sonja.title }}</h2>
+      {{ sonja.content }}
+    </div>
+    <div id="peter-knell" class="eg-modal__container wrapper--inner">
+      <h2 class="page-title sm">{{ peter.title }}</h2>
+      {{ peter.content }}
+    </div>
+  </div>
+{% endblock %}

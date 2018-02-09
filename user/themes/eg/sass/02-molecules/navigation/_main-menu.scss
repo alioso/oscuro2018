@@ -1,0 +1,151 @@
+.main-menu {
+
+  &__links {
+    height: 100vh;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    //background: $tangerine;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .3s ease-in-out;
+
+    &.visible {
+      opacity: .9;
+    }
+  }
+
+  &__item {
+    @include margin(0, .5);
+  }
+
+  &__link {
+    @include link(white, none, white, none);
+    @include font-size(1.3);
+
+    text-transform: uppercase;
+
+    &::after {
+      content: '';
+      display: block;
+      background: $white;
+      height: 1px;
+      width: 0;
+      transition: width .2s ease-in-out;
+    }
+
+    &:hover,
+    &:focus {
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+
+  &__trigger {
+    position: fixed;
+    right: 1em;
+    top: 1em;
+    z-index: 5;
+
+    &.active {
+
+      .main-menu__close {
+
+        > span {
+          width: 26px;
+          opacity: .5;
+        }
+      }
+
+      .main-menu__closed {
+        opacity: 1;
+
+        &--left {
+          transform: rotate(45deg);
+        }
+
+        &--right {
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+
+  &__closed {
+    position: relative;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+
+    &--left {
+      display: block;
+      background: $white;
+      height: 2px;
+      width: 32px;
+      transform: rotate(0);
+      transition: transform .2s ease-in-out;
+      position: absolute;
+      left: 3px;
+      top: 19px;
+    }
+
+    &--right {
+      display: block;
+      background: $white;
+      height: 2px;
+      width: 32px;
+      transform: rotate(0);
+      transition: transform .2s ease-in-out;
+      position: absolute;
+      left: 4px;
+      top: 19px;
+    }
+  }
+
+  &__close {
+    width: 40px;
+    height: 40px;
+    border: 2px solid $white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px 6px;
+    transition: border-radius .2s ease-in-out;
+
+    &:hover {
+      //border-radius: 100%;
+
+      > span {
+        width: 26px;
+      }
+    }
+
+    > span {
+      height: 2px;
+      background: $white;
+      display: block;
+      transition: width .2s ease-in-out, margin-right .2s ease-in-out;
+    }
+
+    &--first {
+      width: 26px;
+    }
+
+    &--second {
+      width: 15px;
+    }
+
+    &--third {
+      width: 20px;
+    }
+  }
+}

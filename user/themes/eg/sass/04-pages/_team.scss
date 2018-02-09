@@ -1,0 +1,18 @@
+.team-list {
+
+  &__title {
+    @include font-size(1.2);
+
+    font-family: $sans;
+    text-transform: uppercase;
+    padding-right: 5px;
+  }
+
+  .desc {
+    display: inline-block;
+  }
+
+  a {
+    color: #333;
+  }
+}

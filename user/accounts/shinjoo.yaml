@@ -1,0 +1,15 @@
+email: shinjoo@gmail.com
+fullname: 'Shinjoo Cho'
+title: PM
+state: enabled
+access:
+  admin:
+    login: true
+    super: false
+  site:
+    login: true
+hashed_password: $2y$10$XKXYg6Pu/yZgh.jaFH6kXOxql/UpvB1e0IcOIvCv32/dR/Z4dek1.
+language: en
+twofa_secret: TCWQKUPAQPG3G3ICYT2XOZVTQRE2AEM4
+login_attempts: {  }
+reset: 'd46c24f264f00802c16b48fb82ed1cc6::1507947149'

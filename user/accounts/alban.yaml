@@ -1,0 +1,14 @@
+email: albanbailly@gmail.com
+fullname: 'Alban Bailly'
+title: Admin
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$XKXYg6Pu/yZgh.jaFH6kXOxql/UpvB1e0IcOIvCv32/dR/Z4dek1.
+language: en
+twofa_secret: TCWQKUPAQPG3G3ICYT2XOZVTQRE2AEM4
+login_attempts: {  }

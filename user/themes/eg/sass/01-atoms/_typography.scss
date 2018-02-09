@@ -1,0 +1,171 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: $cod-gray;
+  font-family: $serif;
+}
+
+h1,
+h4 {
+  font-family: $sans;
+  font-weight: 400;
+}
+
+h2,
+h3 {
+  font-family: $serif;
+  font-weight: 400;
+}
+
+h2.page-title {
+  @include font-size(4);
+
+  margin-top: 0;
+  font-family: $sans;
+  text-transform: uppercase;
+  color: $white-haze;
+  line-height: 1;
+  letter-spacing: .2rem;
+
+  &.sm {
+    @include font-size(3);
+
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+}
+
+h3.page-subtitle {
+  @include padding(.5, 0);
+
+  margin-top: 0;
+  font-family: $sans;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: .05rem;
+  line-height: 1.2;
+
+  .sm {
+    @include font-size(.9);
+
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+}
+
+h3.intersect {
+  @include font-size(2);
+
+  font-family: $sans;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: $white;
+}
+
+h4.page-subtitle {
+  font-family: $serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 0;
+  color: #FFF;
+  letter-spacing: .07rem;
+  line-height: 1.2;
+  margin-bottom: 10px;
+
+  .title-link {
+    @include font-size(.8);
+
+    font-weight: normal;
+  }
+}
+
+ul {
+
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+p {
+  margin-top: 0;
+}
+
+.nb {
+  @include margin(1, 0);
+
+  list-style-type: none;
+  padding: 0;
+}
+
+b,
+strong {
+  -webkit-font-smoothing: auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.serif {
+  font-family: $serif;
+}
+
+.sans {
+  font-family: $sans;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+a {
+  color: $color-link-normal;
+  transition: color .3s;
+  text-decoration: none;
+
+  &:visited {
+    color: $color-link-normal;
+  }
+
+  &:active {
+    color: $color-link-active;
+  }
+
+  &:hover {
+    color: $color-link-hover;
+
+    &:visited {
+      color: $color-link-hover;
+    }
+  }
+}
+
+@mixin ui-typography($light, $normal, $dark, $ui-lightest-grey, $ui-light-grey, $ui-grey) {
+
+$color-names: light normal dark lightest-grey light-grey grey;
+$colors: $light $normal $dark $ui-lightest-grey $ui-light-grey $ui-grey;
+
+
+@for $i from 1 through length($colors) {
+
+  .#{nth($color-names, $i)} {
+    color: nth($colors, $i);
+  }
+
+  .bg {
+
+    &--#{nth($color-names, $i)} {
+      background-color: nth($colors, $i);
+    }
+  }
+}
+
+
+} // close the mixin
