@@ -52,7 +52,7 @@
       //Navigation
       menu: '#menu',
       lockAnchors: false,
-      anchors:['about', 'work', 'team', 'contact'],
+      anchors:['home', 'work', 'team', 'contact'],
       navigation: false,
       navigationPosition: 'right',
       navigationTooltips: ['firstSlide', 'secondSlide'],
