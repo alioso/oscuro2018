@@ -4,26 +4,26 @@
 
 body {
   overflow-x: hidden;
-}
+  background: url('../images/oscuro_home.jpg') no-repeat center center fixed;
+  background-size: cover;
 
-h1 {
-  @include padding(.5, .5);
+  &.fp-viewing-about {
 
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  margin: 0;
+    .page {
+      background: rgba(0, 0, 0, .8);
+    }
+  }
 }
 
 .header-bg {
   background: rgba(0, 0, 0, .5);
   position: fixed;
   left: 0;
-  top: 0;
-  height: 70px;
+  top: -20px;
+  height: 80px;
   width: 100%;
   z-index: 3;
+  border-bottom: 1px solid #222;
 }
 
 .page {
@@ -36,13 +36,16 @@ h1 {
   transition: opacity .2s ease-in-out;
   opacity: 1;
   position: relative;
+  transition: background .2s ease-in-out;
 
   &.bg {
 
     &--home {
-      background: url('../images/oscuro_home.jpg') no-repeat center center fixed;
-      background-size: cover;
+      background: transparent;
+    }
 
+    &--about {
+      color: white;
     }
 
     &--jade {

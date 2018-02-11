@@ -18,6 +18,10 @@
       }
     }
 
+    &__link {
+      @include font-size(1.2);
+    }
+
     &__trigger {
       position: fixed;
       right: 1em;
@@ -136,14 +140,15 @@
   }
 
   &__item {
-    @include margin(0, .5);
+    @include margin(0, .25);
   }
 
   &__link {
     @include link(white, none, white, none);
-    @include font-size(1.3);
+    @include font-size(.9);
 
     text-transform: uppercase;
+    font-family: $sans-copy;
 
     &::after {
       content: '';
@@ -154,12 +159,28 @@
       transition: width .2s ease-in-out;
     }
 
-    &:hover,
-    &:focus {
+    &:hover {
 
       &::after {
         width: 100%;
       }
+    }
+  }
+}
+
+body {
+
+  &.fp-viewing-home {
+
+    [href="#home"]::after {
+      width: 100%;
+    }
+  }
+
+  &.fp-viewing-about {
+
+    [href="#about"]::after {
+      width: 100%;
     }
   }
 }

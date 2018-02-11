@@ -1,9 +1,8 @@
-.main-logo {
-  @include margin-bottom(1);
+.home-wrapper {
+	padding: 0 1rem;
 }
 
 .main-text {
-  @include font-size(1.2);
-
   color: white;
+  max-width: 500px;
 }

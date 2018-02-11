@@ -2,18 +2,10 @@
 
 {% block content %}
   <section id="main">
-    <header>
-      <div class="wrapper__outer">
-        <div class="wrapper__inner">
-          <h1>{{ page.header.title }}</h1>
-          {{ page.header.subtitle|markdown }}
-        </div>
-      </div>
-    </header>
-
     <!-- Content -->
 
     <!-- Landing Pages -->
+    {% set about = page.find('/about') %}
     {% set work = page.find('/work') %}
     {% set team = page.find('/team') %}
     {% set contact = page.find('/contact') %}
@@ -41,22 +33,15 @@
     <div class="wrapper__outer">
       <div class="wrapper__inner">
         <div class="inner">
-          <div id="video-container">            
-            <div class="stns">
-              <span class="scroll-btn navbar-nav">
-                <a href="#" data-nav-section="welcome">
-                  <span class="mouse">
-                    <span>
-                    </span>
-                  </span>
-                </a>
-              </span>
-            </div>
-          </div>
           <div id="fullpage">
             <div class="page bg--home section">
-              <div class="wrapper--inner fh">
+              <div class="home-wrapper fh">
                 {{ page.content }}
+              </div>
+            </div>
+            <div class="page bg--about section">
+              <div class="wrapper--inner fh">
+                {{ about.content }}
               </div>
             </div>
             <div class="page bg--jade section">

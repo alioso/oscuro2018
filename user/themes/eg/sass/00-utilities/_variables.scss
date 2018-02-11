@@ -41,9 +41,10 @@ $site-max-width: 850px / 16px * 1em;
 //
 // TYPOGRAPHY
 //
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 $serif: 'Roboto Slab', serif;
 $sans: 'Dosis', sans-serif;
-$sans-copy: 'Helvetica', sans-serif;
+$sans-copy: 'Roboto', sans-serif;
 // other typography settings see ../vendor/scss/gutenberg/_gutenberg-typography.scss
 
 //

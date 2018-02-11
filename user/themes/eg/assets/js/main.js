@@ -47,12 +47,11 @@
       });
     });
 
-    var $stns = $('.stns');
     $('#fullpage').fullpage({
       //Navigation
       menu: '#menu',
       lockAnchors: false,
-      anchors:['home', 'work', 'team', 'contact'],
+      anchors:['home', 'about', 'work', 'team', 'contact'],
       navigation: false,
       navigationPosition: 'right',
       navigationTooltips: ['firstSlide', 'secondSlide'],
@@ -106,7 +105,7 @@
       paddingTop: false,
       paddingBottom: false,
       fixedElements: '#header, .footer',
-      responsiveWidth: 0,
+      responsiveWidth: 1024,
       responsiveHeight: 0,
       responsiveSlides: false,
       parallax: false,
@@ -120,20 +119,10 @@
 
       //events
       onLeave: function(index, nextIndex, direction){
-        if (index <= 2) {
-          $stns.addClass('visible');
-        }
-        else {
-          $stns.removeClass('visible');
-        }
+        
       },
       afterLoad: function(anchorLink, index){
-        if (index <= 2) {
-          $stns.addClass('visible');
-        }
-        else {
-          $stns.removeClass('visible');
-        }
+        
       },
       afterRender: function(){},
       afterResize: function(){},
@@ -153,8 +142,8 @@
       .addClass('active')
       .removeClass('hidden')
       .parent()
-        .addClass('active')
-        .removeClass('hidden');
+      .addClass('active')
+      .removeClass('hidden');
 
     e.preventDefault();
     $.fn.fullpage.setAllowScrolling(false);
