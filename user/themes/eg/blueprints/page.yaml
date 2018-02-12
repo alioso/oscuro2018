@@ -1,0 +1,28 @@
+title: Page
+'@extends': 
+    type: default
+    context: blueprints://pages 
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+
+        page:
+          type: tab
+          title: Background Image
+
+          fields:
+
+            header.custom.bannerImage:
+              type: file
+              label: Background image
+              destination: 'self@'
+              multiple: false
+              accept:
+                - image/*

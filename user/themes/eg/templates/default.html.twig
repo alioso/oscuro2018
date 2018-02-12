@@ -36,12 +36,19 @@
           <div id="fullpage">
             <div class="page bg--home section">
               <div class="home-wrapper fh">
+                <svg viewBox="0 0 1 1" preserveAspectRatio="none" class="home-tr">
+                  <polyline points="0,0  1,0  0,1" fill="#000" id="top"/>
+                </svg>
                 {{ page.content }}
               </div>
             </div>
             <div class="page bg--about section">
+              {{ dump(about.header.custom.bannerImage|first|last) }}
+              <div class="page-bg-img" style="background: url('{{about.header.custom.bannerImage|first|last}}') no-repeat center center fixed")"></div>
               <div class="wrapper--inner fh">
-                {{ about.content }}
+                <div class="wrapper-about dos">
+                  {{ about.content }}
+                </div>
               </div>
             </div>
             <div class="page bg--jade section">
@@ -50,8 +57,8 @@
                 {{ work.content }}
               </div>
             </div>
-            <div class="page bg--tangerine section">
-              <div class="wrapper--inner fkh">
+            <div class="page bg--tangerine section fp-auto-height">
+              <div class="wrapper--inner fh">
                 <h2 class="page-title">{{ team.title }}</h2>
                 {{ team.content }}
               </div>

@@ -1,5 +1,25 @@
 ---
 title: About
+custom:
+    coverImage:
+        user/pages/02.about/about.jpg:
+            name: about.jpg
+            type: image/jpeg
+            size: 196314
+            path: user/pages/02.about/about.jpg
+    bannerImage:
+        user/pages/02.about/about-f.jpg:
+            name: about-f.jpg
+            type: image/jpeg
+            size: 240557
+            path: user/pages/02.about/about-f.jpg
+content:
+    coverImage:
+        user/pages/02.about/about.jpg:
+            name: about.jpg
+            type: image/jpeg
+            size: 196314
+            path: user/pages/02.about/about.jpg
 ---
 
 The members of Oscuro Quintet come from classical, jazz, and tango background and have studied in the US, South America, Asia, and Europe. They have performed in prestigious concert halls and festivals such as Teatro Colón (Argentina), Buenos Aires Jazz Festival (Argentina), Lincoln Center (US), Carnegie Hall (US), Marlboro Music Festival (US), Palais Montcalm (Canada), Rencontres Musicales Internationales des Graves (France), Lucerne Festival (Switzerland), and Mozarteum Festival (Austria). In addition to their active performance career, they are recognized for developing concert series, seminars, and master classes.

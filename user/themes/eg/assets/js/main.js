@@ -49,7 +49,7 @@
 
     $('#fullpage').fullpage({
       //Navigation
-      menu: '#menu',
+      menu: '#mainMenuUl',
       lockAnchors: false,
       anchors:['home', 'about', 'work', 'team', 'contact'],
       navigation: false,
@@ -79,7 +79,7 @@
       offsetSections: false,
       resetSliders: false,
       fadingEffect: false,
-      normalScrollElements: '#element1, .element2',
+      normalScrollElements: '.dos',
       scrollOverflow: true,
       scrollOverflowReset: true,
       scrollOverflowOptions: {
@@ -102,8 +102,8 @@
       controlArrows: true,
       verticalCentered: true,
       sectionsColor : false,
-      paddingTop: false,
-      paddingBottom: false,
+      paddingTop: '5em',
+      paddingBottom: '5em',
       fixedElements: '#header, .footer',
       responsiveWidth: 1024,
       responsiveHeight: 0,
