@@ -6,16 +6,9 @@
 
     <!-- Landing Pages -->
     {% set about = page.find('/about') %}
-    {% set work = page.find('/work') %}
+    {% set concerts = page.find('/concerts') %}
     {% set team = page.find('/team') %}
-    {% set contact = page.find('/contact') %}
-
-    <!-- Work Pages -->
-    {% set artContent = page.find('/work/art-contents') %}
-    {% set eventContent = page.find('/work/event-contents') %}
-    {% set cbc = page.find('/work/creative-business-consulting') %}
-    {% set bdc = page.find('/work/branding-and-design-consulting') %}
-    {% set ci = page.find('/work/creative-investment') %}
+    {% set contact = page.find('/contact') %}    
 
     <!-- Team Pages -->
     {% set rami = page.find('/team/rami-nuseir') %}
@@ -43,7 +36,6 @@
               </div>
             </div>
             <div class="page bg--about section">
-              {{ dump(about.header.custom.bannerImage|first|last) }}
               <div class="page-bg-img" style="background: url('{{about.header.custom.bannerImage|first|last}}') no-repeat center center fixed")"></div>
               <div class="wrapper--inner fh">
                 <div class="wrapper-about dos">
@@ -53,8 +45,8 @@
             </div>
             <div class="page bg--jade section">
               <div class="wrapper--inner fh">
-                <h2 class="page-title">{{ work.title }}</h2>
-                {{ work.content }}
+                <h2 class="page-title">{{ concerts.title }}</h2>
+                {{ concerts.items }}{{dump(concerts.events)}}
               </div>
             </div>
             <div class="page bg--tangerine section fp-auto-height">

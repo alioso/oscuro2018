@@ -51,7 +51,7 @@
       //Navigation
       menu: '#mainMenuUl',
       lockAnchors: false,
-      anchors:['home', 'about', 'work', 'team', 'contact'],
+      anchors:['home', 'about', 'concerts', 'team', 'contact'],
       navigation: false,
       navigationPosition: 'right',
       navigationTooltips: ['firstSlide', 'secondSlide'],

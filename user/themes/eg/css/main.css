@@ -1631,7 +1631,7 @@ body.fp-viewing-about [href="#about"]::after {
   padding: 4.875rem 4.875rem;
   max-width: 600px;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   overflow: scroll;
   position: fixed;
@@ -1668,9 +1668,9 @@ body.fp-viewing-about [href="#about"]::after {
 
 .home-wrapper {
   padding: 4.875rem 1.625rem 4.875rem 0.8125rem;
-  width: 50%;
+  width: 40%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   overflow: scroll;
   position: fixed;
@@ -1679,7 +1679,6 @@ body.fp-viewing-about [href="#about"]::after {
 
 .main-text {
   color: white;
-  max-width: 500px;
   position: relative;
   z-index: 2; }
 
